@@ -35,7 +35,7 @@ class ChoiceFilter extends Filter
                 return;
             }
 
-            if (in_array('all', $data['value'])) {
+            if (in_array('all', $data['value'], true)) {
                 return;
             }
 
